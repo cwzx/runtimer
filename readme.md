@@ -21,5 +21,5 @@ C:\>
 
 ## Notes
 
-The method used to launch the specified program allows for pass-through standard input/ouput. There appears to be an overhead of ~3 ms associated with this approach. Runtimer does not attempt to compensate for this overhead.
+The method used to launch the specified program allows for pass-through standard input/output. There appears to be an overhead of ~3 ms associated with this approach. Runtimer does not attempt to compensate for this overhead.
 
