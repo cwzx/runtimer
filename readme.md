@@ -1,6 +1,6 @@
 # Runtimer
 
-A simple Windows command line utility for accurate measurement of program execution time.
+A simple Windows command line utility for the accurate measurement of program execution time.
 
 ## Example
 
@@ -8,7 +8,8 @@ A simple Windows command line utility for accurate measurement of program execut
 C:\>runtimer ver
 
 Microsoft Windows [Version 6.1.7601]
-Milliseconds: 3.4914
+
+Time: 3.5380 ms
 
 C:\>
 ```
@@ -16,5 +17,5 @@ C:\>
 ## Features
 
 * Uses the high-frequency clock (QueryPerformanceCounter).
-* Automatically chooses the units of time (hours/minutes/seconds/milliseconds/microseconds) such that the output value is greater than 1 unit.
+* Automatically chooses the units of time (hours/mins/s/ms/us/ns) such that the output value is greater than 1 unit.
 
