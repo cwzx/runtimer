@@ -1,0 +1,11 @@
+bin/
+
+# Visual Studio stuff
+*.suo
+*.sdf
+*.opensdf
+*.psess
+*.vsp
+build/*/x64
+build/*/Win32
+
