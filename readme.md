@@ -16,5 +16,5 @@ C:\>
 ## Features
 
 * Uses the high-frequency clock (QueryPerformanceCounter).
-* Automatically chooses the units of time(hours/minutes/seconds/milliseconds/microseconds) such that the output value is greater than 1 unit.
+* Automatically chooses the units of time (hours/minutes/seconds/milliseconds/microseconds) such that the output value is greater than 1 unit.
 
