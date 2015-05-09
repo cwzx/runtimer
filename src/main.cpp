@@ -5,11 +5,11 @@
 
 void print( double secs ) {
 	static constexpr double threshold = 1.0;
-	auto hours = secs / 360.0;
-	auto mins = secs / 60.0;
+	auto hours = secs / 3600.0;
+	auto mins  = secs / 60.0;
 	auto milli = secs * 1.0e3;
 	auto micro = secs * 1.0e6;
-	auto nano = secs * 1.0e9;
+	auto nano  = secs * 1.0e9;
 
 	if( hours >= threshold ) {
 		printf( "%.4f hours", hours );
