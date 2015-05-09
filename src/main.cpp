@@ -1,5 +1,6 @@
 #include <windows.h>
 #include <cstdio>
+#include <process.h>
 
 #pragma comment( lib, "kernel32" )
 
@@ -36,7 +37,7 @@ int main( int argc, char** argv ) {
 
 	QueryPerformanceCounter( &old_count );
 
-	system(argv[1]);
+	_spawnvp( _P_WAIT, argv[1], (const char**)argv + 1);
 	
 	QueryPerformanceCounter( &new_count );
 
