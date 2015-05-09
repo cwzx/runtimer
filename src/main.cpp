@@ -37,7 +37,7 @@ int main( int argc, char** argv ) {
 	QueryPerformanceCounter( &old_count );
 
 	system(argv[1]);
-
+	
 	QueryPerformanceCounter( &new_count );
 
 	double secs = double( new_count.QuadPart - old_count.QuadPart ) / double( freq.QuadPart );
